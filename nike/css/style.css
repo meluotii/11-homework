@@ -1,0 +1,194 @@
+@font-face {
+    font-family: "MuseoSansW01-Rounded100"; 
+    src: url("//db.onlinewebfonts.com/t/155263ca437b4d97451a5adbddf19f82.eot"); 
+    src: url("//db.onlinewebfonts.com/t/155263ca437b4d97451a5adbddf19f82.eot?#iefix") format("embedded-opentype"), 
+    url("//db.onlinewebfonts.com/t/155263ca437b4d97451a5adbddf19f82.woff2") format("woff2"), 
+    url("//db.onlinewebfonts.com/t/155263ca437b4d97451a5adbddf19f82.woff") format("woff"), 
+    url("//db.onlinewebfonts.com/t/155263ca437b4d97451a5adbddf19f82.ttf") format("truetype"), 
+    url("//db.onlinewebfonts.com/t/155263ca437b4d97451a5adbddf19f82.svg#MuseoSansW01-Rounded100") format("svg"); 
+}
+
+body {
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+}
+
+body, form, div, p, a, img, h1, h2, h3, h4, h5, h6, table, table tr, table td {
+    border: none;
+    color: #e1e1e1;
+    font-family: "MuseoSansW01-Rounded100"; 
+    font-size: 12px;
+    font-style: normal;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+
+input,
+textarea,
+select {
+    outline: none;
+    font-family: "MuseoSansW01-Rounded100"; 
+    font-size: 12px;
+    box-sizing: border-box;
+}
+
+input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    outline: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h1, h2 {
+    font-size: 20px;
+    padding: 0 0 10px 0;
+    color: #545454;
+}
+
+
+
+.block-product {
+    width: 685px;
+    height: 390px;
+    margin: 150px auto;
+    background-color: #111a28;
+    border-radius: 9px;
+}
+
+.block-product__cell {
+    display: inline-block;
+}
+
+.block-product__cell--centering {
+    padding: 75px 0;
+    position: absolute;
+}
+
+.image__logo {
+    padding: 24px;
+}
+
+.image__product {
+    padding: 46px 70px 50px 36px;
+}
+
+.image__scrolling {
+    text-align: center;
+    padding-top: 15px;
+}
+
+.info {
+    width: 185px;
+}
+
+.info__title {
+    font-size: 24px;
+    margin-bottom: 17px;
+}
+
+.info__description {
+    font-size: 14px;
+    opacity: 0.5;
+    margin-bottom: 27px;
+}
+
+.info__rating {
+    width: 60px;
+    height: 12px;
+    position: relative;
+}
+
+.info__rating input {
+    display: none;
+}
+
+.info__rating label {
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url(../images/sprite.png);
+    background-position: 0 -12px;
+    cursor: pointer;
+}
+
+.info__rating label:nth-last-of-type(2) {
+    left: 12px;
+}
+
+.info__rating label:nth-last-of-type(3) {
+    left: 24px;
+}
+
+.info__rating label:nth-last-of-type(4) {
+    left: 36px;
+}
+
+.info__rating label:nth-last-of-type(5) {
+    left: 48px;
+}
+
+.info__rating label:hover,
+.info__rating input:checked + label,
+.info__rating input:checked ~ label,
+.info__rating label:hover ~ label {
+    background-position: 0 0;
+}
+
+.info__size {
+    margin: 35px 0;
+}
+
+.info__size ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.info__size li {
+    padding: 9px 10px 10px 13px;
+    margin: 0 2px 0 0;
+    border: 1px solid rgba(255, 255, 255, 0.7);
+    display: inline;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+a img {
+    padding: 0 0 0 9px;
+}
+
+input[type="button"] {
+    width: 185px;
+    height: 40px;
+    border: 1px solid rgba(255, 255, 255, 0.7);
+    color: #e1e1e1;
+    background-color: transparent;
+    opacity: 0.5;
+    cursor: pointer;
+    
+}
+
+input[type="button"]:focus {
+    border: 1px solid #f7bf16;
+}
+
+input[type="button"]:hover,
+.info__size li:hover, 
+.info__size li:active {
+    background-color: rgba(255, 255, 255, 0.178);
+}
+
+
